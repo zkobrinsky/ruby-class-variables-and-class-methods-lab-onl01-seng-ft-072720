@@ -43,7 +43,7 @@ class Song
       if !@@genres.include? genre
         binding.pry
         count = @@genres.count(genre)
-        @@genres_count << (genre: count)
+        # @@genres_count << (genre: count)
       else
 
 
