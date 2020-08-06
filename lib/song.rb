@@ -12,7 +12,7 @@ class Song
 
     @artist = artist
     @@artists.includes? {|artist| @@artists << artist}
-    
+
 
     @genre = genre
     @@genres << genre
