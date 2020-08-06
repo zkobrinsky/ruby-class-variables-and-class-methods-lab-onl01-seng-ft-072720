@@ -1,3 +1,5 @@
+require "pry"
+
 class Song
 
   attr_accessor :name, :artist, :genre
@@ -11,7 +13,8 @@ class Song
     @name = name
 
     @artist = artist
-    !@@artists.include? {|artist| @@artists << artist}
+    !@@artists.include? {|artist| @@artists << artist
+    }
 
 
     @genre = genre
