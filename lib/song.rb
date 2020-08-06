@@ -13,8 +13,7 @@ class Song
     @name = name
 
     @artist = artist
-    # !@@artists.include? {|artist| @@artists << artist
-    # binding.pry}
+    !@@artists.include? {|artist_name| artist_name==artist @@artists << artist}
 
 
     @genre = genre
