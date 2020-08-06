@@ -43,7 +43,7 @@ class Song
       count = @@genres.count(genre)
       binding.pry
 
-        @@genres_count[genre] = count
+        @@genre_count[genre] = count
 
     end
   end
