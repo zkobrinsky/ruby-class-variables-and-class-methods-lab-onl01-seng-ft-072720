@@ -45,7 +45,6 @@ class Song
         binding.pry
         count = @@genres.count(genre)
         @@genres_count << (genre: count)
-      else
 
 
       end
