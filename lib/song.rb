@@ -14,7 +14,7 @@ class Song
 
     @artist = artist
     !@@artists.include? {|artist| @@artists << artist
-    }
+    binding.pry}
 
 
     @genre = genre
