@@ -48,7 +48,12 @@ class Song
 
 
 def self.artist_count
-
+  @@artists.each do |artist|
+    count = @@artists.count(artist)
+      @@artist_count[artist] = count
+      # @@genre_count.store(genre,count)
+  end
+  @@artist_count
 end
 
 
