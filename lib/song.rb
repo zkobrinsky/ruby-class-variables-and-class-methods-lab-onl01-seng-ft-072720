@@ -37,14 +37,21 @@ class Song
     unique_array = @@genres.uniq
   end
 
-  def self.genre_count
+  # def self.genre_count
+  #   @@genres.each do |genre|
+  #     count = @@genres.count(genre)
+  #       @@genre_count[genre] = count
+  # 
+  #   end
+  # end
 
+  def self.genre_count
     @@genres.each do |genre|
       count = @@genres.count(genre)
-      # binding.pry
-
+      binding.pry
+      if !@@genre_count.include? genre do
         @@genre_count[genre] = count
-
+      end
     end
   end
 
