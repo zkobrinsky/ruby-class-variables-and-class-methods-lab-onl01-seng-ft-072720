@@ -13,7 +13,7 @@ class Song
     @name = name
 
     @artist = artist
-    if !@@artists.include? artist 
+    if !@@artists.include? artist
       @@artists << artist
     end
     binding.pry
