@@ -13,7 +13,8 @@ class Song
     @name = name
 
     @artist = artist
-    !@@artists.include? {|artist_name| artist_name==artist @@artists << artist}
+    if !artists.include? artist
+    @@artists.none? {|artist_name| artist_name==artist @@artists << artist}
 
 
     @genre = genre
