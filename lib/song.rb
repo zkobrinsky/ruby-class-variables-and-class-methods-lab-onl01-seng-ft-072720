@@ -34,7 +34,7 @@ class Song
   end
 
   def self.genres
-    @@genres
+    unique_array = @@genres.uniq
   end
 
 
