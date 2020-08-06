@@ -11,13 +11,11 @@ class Song
 
   def initialize(name, artist, genre)
     @name = name
-
+    
     @artist = artist
     if !@@artists.include? artist
       @@artists << artist
     end
-    # binding.pry
-
 
     @genre = genre
     @@genres << genre
