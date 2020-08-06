@@ -44,6 +44,7 @@ class Song
       @@genres << (genre: count)
       binding.pry
     end
+    end
   end
 
 
