@@ -14,6 +14,7 @@ class Song
 
     @artist = artist
     !@@artists.include? artist {@@artists << artist}
+    binding.pry
     # @@artists.none? {|artist_name| artist_name==artist @@artists << artist}
 
 
