@@ -21,6 +21,8 @@ class Song
     @@count += 1
   end
 
+  #class methods
+
   def self.count
     @@count
   end
