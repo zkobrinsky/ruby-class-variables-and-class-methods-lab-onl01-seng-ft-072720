@@ -30,7 +30,7 @@ class Song
   end
 
   def self.artists
-    @@artists
+    unique_array = @@artists.uniq
   end
 
   def self.genres
