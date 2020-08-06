@@ -40,11 +40,12 @@ class Song
   def self.genre_count
     @@genres.each do |genre|
       if !@@genres.include? genre
+        binding.pry
         count = @@genres.count(genre)
         # @@genres_count << (genre: count)
 
       end
-      binding.pry
+      
     end
   end
 
