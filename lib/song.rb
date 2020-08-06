@@ -13,7 +13,9 @@ class Song
     @name = name
 
     @artist = artist
-    !@@artists.include? artist {@@artists << artist}
+    if !@@artists.include? artist 
+      @@artists << artist
+    end
     binding.pry
 
 
