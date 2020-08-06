@@ -53,6 +53,7 @@ class Song
         @@genre_count[genre] = count
       end
     end
+    end
   end
 
 
